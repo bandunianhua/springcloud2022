@@ -1,0 +1,4 @@
+com\zn\springcloud\domain\Payment$PaymentBuilder.class
+com\zn\springcloud\domain\CommentResult$CommentResultBuilder.class
+com\zn\springcloud\domain\CommentResult.class
+com\zn\springcloud\domain\Payment.class

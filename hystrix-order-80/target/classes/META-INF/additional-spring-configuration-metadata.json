@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "feign.hystrix.enbaled",
+      "type": "java.lang.String",
+      "description": "Description for feign.hystrix.enbaled."
+  }
+] }
