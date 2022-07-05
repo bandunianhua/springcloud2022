@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/cloud2022.iml" filepath="$PROJECT_DIR$/.idea/cloud2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-center-3344/cloud-config-center-3344.iml" filepath="$PROJECT_DIR$/cloud-config-center-3344/cloud-config-center-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-order-80/consul-order-80.iml" filepath="$PROJECT_DIR$/consul-order-80/consul-order-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-payment8086/consul-payment8086.iml" filepath="$PROJECT_DIR$/consul-payment8086/consul-payment8086.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server7001/eureka-server7001.iml" filepath="$PROJECT_DIR$/eureka-server7001/eureka-server7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server7002/eureka-server7002.iml" filepath="$PROJECT_DIR$/eureka-server7002/eureka-server7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-cloud-9527/gateway-cloud-9527.iml" filepath="$PROJECT_DIR$/gateway-cloud-9527/gateway-cloud-9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-order-80/hystrix-order-80.iml" filepath="$PROJECT_DIR$/hystrix-order-80/hystrix-order-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-payment-8087/hystrix-payment-8087.iml" filepath="$PROJECT_DIR$/hystrix-payment-8087/hystrix-payment-8087.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-service9001/hystrix-service9001.iml" filepath="$PROJECT_DIR$/hystrix-service9001/hystrix-service9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openFeign-order-80/openFeign-order-80.iml" filepath="$PROJECT_DIR$/openFeign-order-80/openFeign-order-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order80/order80.iml" filepath="$PROJECT_DIR$/order80/order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment8081/payment8001.iml" filepath="$PROJECT_DIR$/payment8081/payment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment8002/payment8002.iml" filepath="$PROJECT_DIR$/payment8002/payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment8085/payment8085.iml" filepath="$PROJECT_DIR$/payment8085/payment8085.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment8091/payment8091.iml" filepath="$PROJECT_DIR$/payment8091/payment8091.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud2022.iml" filepath="$PROJECT_DIR$/.idea/springcloud2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-order80/zookeeper-order80.iml" filepath="$PROJECT_DIR$/zookeeper-order80/zookeeper-order80.iml" />
     </modules>
   </component>
 </project>
