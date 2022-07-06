@@ -27,6 +27,8 @@
         <module>cloud-config-center-3344</module>
         <module>payment8091</module>
         <module>stream-provide8801</module>
+        <module>stream-consumer8802</module>
+        <module>stream-consumer8803</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

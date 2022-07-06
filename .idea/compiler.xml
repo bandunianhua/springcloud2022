@@ -18,6 +18,8 @@
         <module name="zookeeper-order80" />
         <module name="consul-payment8086" />
         <module name="eureka-service7001" />
+        <module name="stream-consumer8803" />
+        <module name="stream-consumer8802" />
         <module name="openFeign-order-80" />
         <module name="hystrix-service9001" />
         <module name="commons" />
@@ -49,6 +51,8 @@
       <module name="payment8085" target="1.8" />
       <module name="payment8091" target="1.8" />
       <module name="springcloud2022" target="1.8" />
+      <module name="stream-consumer8802" target="1.8" />
+      <module name="stream-consumer8803" target="1.8" />
       <module name="stream-provide8801" target="1.8" />
       <module name="zookeeper-order80" target="1.8" />
     </bytecodeTargetLevel>

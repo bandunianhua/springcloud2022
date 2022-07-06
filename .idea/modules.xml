@@ -19,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/payment8085/payment8085.iml" filepath="$PROJECT_DIR$/payment8085/payment8085.iml" />
       <module fileurl="file://$PROJECT_DIR$/payment8091/payment8091.iml" filepath="$PROJECT_DIR$/payment8091/payment8091.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud2022.iml" filepath="$PROJECT_DIR$/.idea/springcloud2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-consumer8802/stream-consumer8802.iml" filepath="$PROJECT_DIR$/stream-consumer8802/stream-consumer8802.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-consumer8803/stream-consumer8803.iml" filepath="$PROJECT_DIR$/stream-consumer8803/stream-consumer8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-provide8801/stream-provide8801.iml" filepath="$PROJECT_DIR$/stream-provide8801/stream-provide8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-order80/zookeeper-order80.iml" filepath="$PROJECT_DIR$/zookeeper-order80/zookeeper-order80.iml" />
     </modules>
