@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @创建人 Administrator
  * @创建时间 2022/7/1
  */
-@RestController
-@RefreshScope
-public class ConfigClientController {
-    @Value("${config.info}")
-    private String info;
-
-    @GetMapping("/getInfo")
-    public String getInfo() {
-        return info;
-    }
-}
+//@RestController
+//@RefreshScope
+//public class ConfigClientController {
+//    @Value("${config.info}")
+//    private String info;
+//
+//    @GetMapping("/getInfo")
+//    public String getInfo() {
+//        return info;
+//    }
+//}

@@ -4,6 +4,13 @@ server:
 spring:
   application:
     name: cloud-applyment-service
+  zipkin:
+    base-url: http://localhost:9411  #需要启动sleuth服务端
+    sleuth:
+      sampler:
+      #采样率值介于0到1之间，1则表示全部采集
+      probability: 1
+
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
