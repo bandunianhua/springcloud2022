@@ -1,0 +1,28 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: nacos-payment-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  #nacos-server地址
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/testcloud?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 7464xiong
+
+
+#暴露出注册中心
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-handlers-package: com.zn.springcloud.domain

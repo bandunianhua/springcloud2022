@@ -29,6 +29,8 @@
         <module>stream-provide8801</module>
         <module>stream-consumer8802</module>
         <module>stream-consumer8803</module>
+        <module>nacos-payment9091</module>
+        <module>nacos-order80</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -63,7 +65,7 @@
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>2.2.2.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
