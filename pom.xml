@@ -24,13 +24,13 @@
         <module>hystrix-order-80</module>
         <module>hystrix-service9001</module>
         <module>gateway-cloud-9527</module>
-        <module>cloud-config-center-3344</module>
         <module>payment8091</module>
         <module>stream-provide8801</module>
         <module>stream-consumer8802</module>
         <module>stream-consumer8803</module>
         <module>nacos-payment9091</module>
         <module>nacos-order80</module>
+        <module>nacos-payment9093</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

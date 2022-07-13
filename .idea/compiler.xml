@@ -14,20 +14,21 @@
         <module name="order80" />
         <module name="consul-order-80" />
         <module name="eureka-server7002" />
-        <module name="eureka-server7001" />
+        <module name="eureka-service7001" />
         <module name="hystrix-order-80" />
         <module name="zookeeper-order80" />
         <module name="consul-payment8086" />
-        <module name="eureka-service7001" />
+        <module name="nacos-payment9093" />
         <module name="stream-consumer8803" />
         <module name="stream-consumer8802" />
         <module name="openFeign-order-80" />
         <module name="hystrix-service9001" />
         <module name="commons" />
-        <module name="hystrix-payment-8087" />
+        <module name="eureka-server7001" />
         <module name="gateway-cloud-9527" />
         <module name="payment8081" />
         <module name="payment8082" />
+        <module name="hystrix-payment-8087" />
         <module name="payment8085" />
         <module name="nacos-payment9091" />
       </profile>
@@ -47,6 +48,7 @@
       <module name="hystrix-service9001" target="1.8" />
       <module name="nacos-order80" target="1.8" />
       <module name="nacos-payment9091" target="1.8" />
+      <module name="nacos-payment9093" target="1.8" />
       <module name="oeder80 (1) (com.zn.springcloud)" target="1.8" />
       <module name="openFeign-order-80" target="1.8" />
       <module name="order80" target="1.8" />

@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/hystrix-service9001/hystrix-service9001.iml" filepath="$PROJECT_DIR$/hystrix-service9001/hystrix-service9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-order80/nacos-order80.iml" filepath="$PROJECT_DIR$/nacos-order80/nacos-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-payment9091/nacos-payment9091.iml" filepath="$PROJECT_DIR$/nacos-payment9091/nacos-payment9091.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-payment9093/nacos-payment9093.iml" filepath="$PROJECT_DIR$/nacos-payment9093/nacos-payment9093.iml" />
       <module fileurl="file://$PROJECT_DIR$/openFeign-order-80/openFeign-order-80.iml" filepath="$PROJECT_DIR$/openFeign-order-80/openFeign-order-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/order80/order80.iml" filepath="$PROJECT_DIR$/order80/order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/payment8081/payment8081.iml" filepath="$PROJECT_DIR$/payment8081/payment8081.iml" />

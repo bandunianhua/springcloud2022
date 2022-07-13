@@ -1,0 +1,28 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848,localhost:8847 #nacos作为服务中心
+        namespace: fc4556df-5a53-418d-a5d1-cd4862970567
+      config:
+        server-addr: localhost:8848,localhost:8847 #nacos作为配置中心
+        file-extension: yaml #指定yaml格式配置
+        group: DEV_GROUP
+        namespace: fc4556df-5a53-418d-a5d1-cd4862970567
+    inetutils:
+      default-ip-address: 127.0.0.1
+
+
+# Data ID=${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+
+##暴露监控端点
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
