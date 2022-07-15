@@ -13,6 +13,7 @@
         <module name="stream-provide8801" />
         <module name="order80" />
         <module name="consul-order-80" />
+        <module name="sentinel-payment5051" />
         <module name="eureka-server7002" />
         <module name="eureka-service7001" />
         <module name="hystrix-order-80" />
@@ -56,6 +57,7 @@
       <module name="payment8082" target="1.8" />
       <module name="payment8085" target="1.8" />
       <module name="payment8091" target="1.8" />
+      <module name="sentinel-payment5051" target="1.8" />
       <module name="springcloud2022" target="1.8" />
       <module name="stream-consumer8802" target="1.8" />
       <module name="stream-consumer8803" target="1.8" />

@@ -1,0 +1,42 @@
+server:
+  port: 5051
+
+spring:
+  application:
+    name: sentinel-payment-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  #nacos-server地址
+        namespace: fc4556df-5a53-418d-a5d1-cd4862970567
+      config:
+        server-addr: localhost:8848
+        namespace: fc4556df-5a53-418d-a5d1-cd4862970567
+        group: DEV_GROUP
+        file-extension: yaml
+    sentinel:
+      transport:
+        #配置sentinel dashboard地址
+        dashboard: localhost:8080
+        #默认8719端口，假如被占用会自动从8719开始依次+1扫描，直至找到未被占用的端口
+        port: 8719
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/testcloud?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 7464xiong
+
+#暴露出注册中心
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-handlers-package: com.zn.springcloud.domain
