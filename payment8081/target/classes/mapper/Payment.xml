@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
-<mapper namespace="com.zn.springcloud.dao.PaymentDao">
+<mapper namespace="com.zn.PaymentDao">
     <resultMap id="resultMap" type="com.zn.springcloud.domain.Payment">
         <result column="id" jdbcType="FLOAT" property="id"/>
         <result column="serial" jdbcType="VARCHAR" property="serial"/>
