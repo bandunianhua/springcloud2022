@@ -1,6 +1,7 @@
 package com.zn.springcloud.controller;
 
 import cn.hutool.core.util.IdUtil;
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.zn.springcloud.domain.CommentResult;
 import com.zn.springcloud.domain.Payment;
 import com.zn.springcloud.service.PaymentService;
