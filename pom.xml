@@ -32,6 +32,7 @@
         <module>nacos-order80</module>
         <module>nacos-payment9093</module>
         <module>sentinel-payment5051</module>
+        <module>sentinel-order80</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

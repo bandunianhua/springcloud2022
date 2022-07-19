@@ -8,18 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="payment8091" />
+        <module name="hystrix-payment-8087" />
         <module name="nacos-order80" />
         <module name="cloud-config-center-3344" />
         <module name="stream-provide8801" />
         <module name="order80" />
         <module name="consul-order-80" />
-        <module name="sentinel-payment5051" />
         <module name="eureka-server7002" />
         <module name="eureka-service7001" />
         <module name="hystrix-order-80" />
         <module name="zookeeper-order80" />
         <module name="consul-payment8086" />
         <module name="nacos-payment9093" />
+        <module name="sentinel-order80" />
         <module name="stream-consumer8803" />
         <module name="stream-consumer8802" />
         <module name="openFeign-order-80" />
@@ -29,7 +30,7 @@
         <module name="gateway-cloud-9527" />
         <module name="payment8081" />
         <module name="payment8082" />
-        <module name="hystrix-payment-8087" />
+        <module name="sentinel-payment5051" />
         <module name="payment8085" />
         <module name="nacos-payment9091" />
       </profile>
@@ -57,6 +58,7 @@
       <module name="payment8082" target="1.8" />
       <module name="payment8085" target="1.8" />
       <module name="payment8091" target="1.8" />
+      <module name="sentinel-order80" target="1.8" />
       <module name="sentinel-payment5051" target="1.8" />
       <module name="springcloud2022" target="1.8" />
       <module name="stream-consumer8802" target="1.8" />

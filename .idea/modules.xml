@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/payment8082/payment8082.iml" filepath="$PROJECT_DIR$/payment8082/payment8082.iml" />
       <module fileurl="file://$PROJECT_DIR$/payment8085/payment8085.iml" filepath="$PROJECT_DIR$/payment8085/payment8085.iml" />
       <module fileurl="file://$PROJECT_DIR$/payment8091/payment8091.iml" filepath="$PROJECT_DIR$/payment8091/payment8091.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-order80/sentinel-order80.iml" filepath="$PROJECT_DIR$/sentinel-order80/sentinel-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/sentinel-payment5051/sentinel-payment5051.iml" filepath="$PROJECT_DIR$/sentinel-payment5051/sentinel-payment5051.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud2022.iml" filepath="$PROJECT_DIR$/.idea/springcloud2022.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-consumer8802/stream-consumer8802.iml" filepath="$PROJECT_DIR$/stream-consumer8802/stream-consumer8802.iml" />

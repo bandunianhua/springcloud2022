@@ -1,0 +1,38 @@
+server:
+  port: 80
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: sentinel-order-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  #nacos-server地址
+        namespace: fc4556df-5a53-418d-a5d1-cd4862970567
+      config:
+        server-addr: localhost:8848
+        namespace: fc4556df-5a53-418d-a5d1-cd4862970567
+        group: DEV_GROUP
+        file-extension: yaml
+    sentinel:
+      transport:
+        #配置sentinel dashboard地址
+        dashboard: localhost:8080
+        #默认8719端口，假如被占用会自动从8719开始依次+1扫描，直至找到未被占用的端口
+        port: 8719
+
+#暴露出注册中心
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+#激活sentinel对Feign的支持
+#feign:
+#  sentinel:
+#    enabled: true
